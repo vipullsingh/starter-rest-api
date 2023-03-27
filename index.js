@@ -6,6 +6,7 @@ const dotenv = require('dotenv');
 const authMiddleware = require('./middlewares/auth');
 
 const app = express();
+let a=1;
 
 dotenv.config();
 
